@@ -1,0 +1,533 @@
+.breadcrumb.breadcrumb-list {
+    padding: 60px 0px;
+    background: url(https://zahidlawoffice.com/wp-content/uploads/2024/06/breadcrumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #000000bf;
+    background-position: center left;
+}
+.breadcrumb ul li {
+    padding-right: 5px;
+    display: inline-block;
+}
+.breadcrumb h1 {
+    margin-bottom: 15px;
+}
+.breadcrumb ul {
+    padding: 8px 15px;
+    list-style-type: none;
+    color: black;
+    margin: 0px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+section.aboutus-info {
+    padding: 80px 0px 0px;
+}
+img.img-fluid.img1 {
+    height: 330px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+img.img-fluid.img2 {
+    border-radius: 10px;
+    height: 475px;
+    object-fit: cover;
+}
+.vision-mission .row {
+    align-items: center;
+    padding: 70px 0px 0px;
+}
+.vision-mission h2 {
+    margin-bottom: 20px;
+}
+.vision-mission p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.col-md-12.vision {
+    max-width: 800px;
+    margin: 60px auto 0px;
+    text-align: center;
+    box-shadow: 0px 1px 24px 0px #0000001a;
+    padding: 50px 50px 30px;
+    border-radius: 10px;
+}
+/*Contact Us Form*/
+.dull-bg {
+    background: #F9F9F6;
+    padding: 80px 0px;
+}
+form.contact-us {
+    padding: 24px;
+    background: #FFFFFF;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+form input.form-control, form textarea.form-control {
+    padding: 20px;
+    border-radius: 10px;
+    background: #FAFAFA;
+    border: none;
+}
+form.contact-us button {
+    margin: 24px auto 0 auto;
+}
+form input.form-control,form input.form-control:focus, form input.form-control:focus-visible, form textarea.form-control, form textarea.form-control:focus, form textarea.form-control:focus-visible {
+    border: unset !important;
+    box-shadow: unset;
+    background: #FAFAFA;
+}
+/*Contact Us Form*/
+
+/*login*/
+.authendication-pages .content .wrapper .text-bg.register {
+    background: rgba(255, 242, 242, 0.13);
+}
+.authendication-pages .content .wrapper .text-bg {
+    backdrop-filter: blur(50px);
+    padding: 40px;
+    border-radius: 10px;
+}
+.btn-limegreen {
+    background: #AAF40C;
+    padding: 24px;
+    color: #192335;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    cursor: default;
+}
+.authendication-pages .content .wrapper {
+    max-width: 100%;
+    padding: 0px;
+}
+.main-wrapper.authendication-pages {
+    overflow-x: hidden;
+}
+.banner-bg.login{
+    background: url(https://zahidlawoffice.com/wp-content/uploads/2024/06/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    width: 50%;
+}
+.vph-100 {
+    min-height: 100vh;
+}
+.authendication-pages .content .wrapper .text-bg p {
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.authendication-pages .content .wrapper p {
+    font-size: 20px;
+}
+.authendication-pages .content .wrapper .shadow-card {
+    margin: 40px 0;
+}
+.shadow-card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0px 4px 44px rgba(211, 211, 211, 0.25);
+}
+.authendication-pages .content form .form-group {
+    margin-bottom: 24px;
+}
+.authendication-pages .content form .form-check.form-switch .form-check-input:not(:checked) {
+    border-color: #6B7385;
+}
+.authendication-pages .content .wrapper header {
+    margin-top: 80px;
+}
+.authendication-pages .content .bottom-text {
+    margin-bottom: 80px;
+}
+.shadow-card label.form-check-label {
+    padding-left: 10px;
+}
+button.btn.btn-secondary.d-inline-flex.justify-content-center.btn-block {
+    margin-top: 30px;
+}
+label.form-check-label.res {
+    padding: 0px;
+}
+input#user-pass:focus {
+    box-shadow: unset;
+}
+@media (max-width: 992px) {
+    .authendication-pages .content .wrapper .banner-bg {
+        display: none;
+    }
+    .authendication-pages .content .wrapper p {
+        font-size: 17px;
+    }
+    .authendication-pages .content .wrapper header {
+        margin-top: 45px;
+    }
+    .authendication-pages .content .bottom-text {
+        margin-bottom: 45px;
+    }
+    .col-sm-10.col-md-10.col-lg-10.mx-auto {
+        padding: 0px 25px;
+    }
+    .vph-100 {
+        min-height: auto;
+    }
+}
+/*login*/
+
+section.faq-info {
+    padding: 80px 0px;
+}
+.ask-questions p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.faq .row {
+    align-items: center;
+}
+.ask-questions .faq-info .accordion {
+    background: #FFFFFF;
+    border: 1px solid #EAEDF0;
+    padding: 0px 20px;
+}
+.ask-questions .faq-info .accordion-button {
+    background: transparent;
+    padding: 27px 5px 27px 0px;
+    font-size: 18px;
+    color: #192335;
+    box-shadow: unset;
+}
+.accordion-item .accordion-body {
+    padding: 0px;
+}
+.ask-questions .faq-info .accordion .accordion-item {
+    border: 0;
+    border-bottom: 1px solid #EAEDF0;
+    background: transparent;
+}
+.terms.container {
+    padding: 80px 10px;
+}
+.terms p {
+    font-size: 18px;
+    line-height: 32px;
+}
+/*booking*/
+section.arena {
+    padding: 80px 0px;
+}
+.venues {
+    display: flex;
+}
+.venues.r2 {
+    margin-top: 20px;
+}
+.vns.col-lg-4.col-md-6 {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+/*booking*/
+
+section.complex {
+    background: #efefef7a;
+    padding: 80px 0px;
+}
+.venue-options {
+    padding: 15px 15px 9px 15px;
+    box-shadow: 0px 4px 44px rgba(211, 211, 211, 0.25);
+    border-radius: 10px;
+    background: #fff;
+}
+.venue-options ul.clearfix {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.venue-options ul li.active a, .venue-options ul li:hover a {
+    background: #192335;
+    color: #FFFFFF;
+    border-color: #192335;
+}
+.venue-options ul li a {
+    padding: 10px 15px;
+    border: 1px solid #EAEDF0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #192335;
+}
+.venue-options ul li {
+    margin-bottom: 20px;
+    margin: 0 6px 6px 0;
+    float: left;
+}
+.accordion.vnu .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    color: #192335;
+    background: none;
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid #EAEDF0;
+    box-shadow: unset;
+}
+form .mb-10 {
+    margin-bottom: 15px;
+}
+.vnu .accordion-body {
+    padding: 20px;
+}
+button.accordion-button.collapsed:focus {
+    box-shadow: unset;
+}
+.accordion.vnu .accordion-item {
+    color: #6B7385;
+    box-shadow: 0px 4px 44px rgba(211, 211, 211, 0.25);
+    border-radius: 10px;
+    border: none;
+}
+button.accordion-button.collapsed {
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.accordion.vnu .accordion-item#location .dull-bg {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.cnt p {
+    margin: 0px;
+}
+aside .white-bg {
+    padding: 24px;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 44px rgba(211, 211, 211, 0.25);
+}
+ aside h4.border-bottom {
+    margin: 0 0 24px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #EAEDF0;
+}
+.accordion.vnu .accordion-item .accordion-header {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+.theiaStickySidebar h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.availability h4 {
+    margin: 0px;
+}
+.white-bg.availability {
+    gap: 15px;
+}
+.accordion .accordion-item#includes .accordion-body ul li, .accordion .accordion-item#lesson-with-me .accordion-body ul li {
+    padding: 10px;
+    border-radius: 10px;
+    background: #F9F9F6;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+ul.clearfix.incl {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul.d-md-flex.justify-content-between.align-items-center {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.social-medias img {
+    width: 34px;
+}
+ul.social-medias.d-flex {
+    padding: 0px;
+    list-style-type: none;
+    gap: 15px;
+}
+.cnt {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.map img {
+    max-width: 45px;
+}
+.cnt h6 {
+    margin: 0px;
+    color: #222;
+    font-weight: 600;
+}
+@media (max-width: 767px){
+    .breadcrumb ul {
+        font-size: 13px;
+     }
+     .theiaStickySidebar {
+        margin-top: 10px;
+    }
+     .venues {
+        display: block;
+    }
+    .vns.col-lg-4.col-md-12 {
+        margin-bottom: 20px;
+    }
+     .breadcrumb.breadcrumb-list {
+        padding: 40px 0px;
+    }
+     .vision-mission p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .aboutus-info .row.d-flex.align-items-center {
+        gap: 25px;
+    }
+    .col-md-12.vision {
+        max-width: 95%;
+        margin: 30px auto;
+        padding: 30px 30px 20px;
+    }
+    .vision-mission h2 {
+        margin-bottom: 15px;
+    }
+    section.aboutus-info {
+        padding: 55px 0px 0px ! IMPORTANT;
+    }
+    img.img-fluid.img1, img.img-fluid.img2 {
+        height: 100%;
+        width: 100%;
+    }  
+    form input.form-control, form textarea.form-control {
+        padding: 14px;
+        font-size: 14px;
+    } 
+    .ask-questions .faq-info .accordion-button {
+        padding: 20px 5px 20px 0px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .terms.container {
+        padding: 0px 10px !important;
+    }
+    .terms p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+/*User*/
+.card-users {
+    border: 0;
+    padding: 24px;
+    box-shadow: 0px 4px 44px rgba(211, 211, 211, 0.25);
+    margin: 70px 0px;
+    border-radius: 18px;
+}
+.table .t-head th {
+    color: #192335;
+    font-weight: 600;
+    background: #F9F9F6;
+    border-color: #F9F9F6;
+    padding: 15px 20px;
+    border: 0px;
+}
+.table td h2.table-avatar {
+    align-items: center;
+    display: inline-flex;
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    gap: 15px;
+}
+.table td, .table th {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+img.avatar-img {
+    width: 50px;
+    border-radius: 10px;
+}
+.table tbody tr td {
+    padding: 15px;
+    vertical-align: middle;
+}
+.table-head-name a {
+    font-size: 16px;
+    color: #192335;
+    margin-bottom: 6px;
+    font-weight: 500;
+    display: flex;
+    line-height: 25px;
+}
+.table-head-name span {
+    color: #097E52;
+    font-size: 15px;
+    line-height: 22px;
+}
+.table-date-time h4 span {
+    padding-top: 5px;
+    display: flex;
+}
+.table-date-time h4 {
+    font-size: 14px;
+    color: #192335;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+span.table-head-name.flex-grow-1 {
+    line-height: 20px;
+}
+.dropdown-action .action-icon {
+    color: #A8A8A8;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    background: #F9F9F6;
+    border: 1px solid #EAEDF0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view-detail-pink a, .cancel a:hover {
+    background: #192335;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+span.badge.bg-info {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.cancel a, .view-detail-pink a:hover {
+    background: #097E52;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}

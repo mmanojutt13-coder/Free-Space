@@ -1,0 +1,532 @@
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.fade-in-left, .fade-in-right {
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in-left {
+    transform: translateX(-50px);
+}
+.fade-in-right {
+    transform: translateX(50px);
+}
+.fade-in-left.visible, .fade-in-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+section.hero-section {
+    background: url(https://zahidlawoffice.com/wp-content/uploads/2024/06/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.hero-section .section-search h1 {
+    font-size: 62px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.hero-section .section-search h1 span {
+    color: #fafad2;
+}
+.hero-section .section-search h4 {
+    color: #fafad2;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.hero-section .section-search p {
+    color: #EEEEEE;
+    margin: 0;
+    font-size: 20px;
+}
+.hero-section .section-search .search-box {
+    width: 100%;
+    background: #F9F9F6;
+    box-shadow: 0px 4px 24px rgba(212, 212, 212, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.hero-section .section-search .search-box form {
+    display: flex;
+    align-items: center;
+}
+.hero-section .section-search .search-box .search-input.line {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.hero-section .section-search .search-box .search-input {
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 45%;
+}
+.form-group.mb-0 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-section .section-search .search-box .search-btn .btn {
+    border: 0;
+    background: linear-gradient(105.55deg, #085A6C -6.68%, #269089 43.13%, #7ABC82 96.15%);
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: #FFFFFF;
+    padding: 0;
+}
+.search-btn img {
+    width: 20px;
+    filter: invert(1);
+}
+select.select.select2-hidden-accessible {
+    font-size: 16px;
+    border: none;
+    background: #FAFAFA;
+    height: 35px;
+}
+select.select.select2-hidden-accessible:focus-visible, select.select.select2-hidden-accessible:focus {
+    border: unset;
+    outline: unset;
+    box-shadow: unset;
+}
+.search-box label {
+    font-weight: 500;
+}
+.work-section {
+    padding: 80px 0 55px;
+    overflow: hidden;
+}
+.section-heading h2 span {
+    font-size: inherit;
+    background: linear-gradient(105.55deg, #085A6C -6.68%, #269089 43.13%, #7ABC82 96.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.work-grid {
+    background: #FFFFFF;
+    border: 1px solid #EAEDF0;
+    box-shadow: 0px 4px 24px rgba(212, 212, 212, 0.25);
+    position: relative;
+    border-radius: 10px;
+    margin: 0 0 24px;
+    padding: 24px;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.work-grid .work-icon {
+    width: 113px;
+    height: 113px;
+    background: #F9F9F6;
+    border-radius: 10px;
+    margin: 0 auto 24px;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-heading {
+    margin: 0 0 40px;
+}
+.work-grid .work-content .btn {
+    width: 100%;
+    color: #192335;
+    background: #FFFFFF;
+    border: 1px solid #192335;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.work-grid:hover .work-content .btn {
+    color: #FFFFFF;
+    background: #192335;
+    border-color: #192335;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.work-grid:hover .work-icon {
+    background: #097E52;
+    -webkit-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.work-icon img {
+    max-width: 50px;
+}
+.work-grid .work-content h5 {
+    margin-bottom: 15px;
+}
+.work-grid .work-content h5 a {
+    font-weight: 600;
+    font-size: 24px;
+    color: #192335;
+    text-decoration: unset;
+}
+.work-grid.w-100:hover img {
+    filter: invert(1);
+}
+.work-grid .work-content p {
+    margin: 0 auto 40px;
+    max-width: 280px;
+}
+.featured-venues p.sub-title, .service-section p.sub-title, .work-section p.sub-title {
+    max-width: 700px;
+    margin: 15px auto;
+    font-size: 20px;
+    line-height: 32px;
+}
+.listing-venue-owner img {
+    width: 35px !important;
+    margin-right: 10px;
+}
+.listing-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border: 1px solid #ddd;
+    border-width: 1px 0px 0px;
+}
+.listing-venue-owner h6.navigation {
+    margin: 0px;
+    font-size: 16px;
+}
+.list-reviews .rating-bg {
+    background: #fa0;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 7px;
+    width: 31px;
+    height: 28px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.list-reviews span {
+    font-size: 14px;
+    color: #676767;
+}
+.listing-title a {
+    text-decoration: none;
+    color: #192335;
+    font-size: 24px;
+    margin-top: 15px;
+    display: block;
+}
+.map-pin img {
+    width: 24px !important;
+    margin-right: 7px;
+    filter: contrast(0.5);
+}
+p.map-pin, h6.navigation {
+    display: flex;
+    align-items: center;
+}
+.listing-content {
+    box-shadow: 0 4px 24px rgba(212, 212, 212, .25);
+    background: #fff;
+    padding: 24px;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+}
+img.det-img {
+    border-radius: 10px 10px 0px 0px;
+    height: 330px;
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: ease all 0.5s;
+}
+a.user-book-now {
+    background: #097E52;
+    color: white;
+    padding: 7px 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    text-decoration: unset;
+    transition: ease all 0.5s;
+}
+a.user-book-now:hover {
+    background: #192335;
+}
+.featured-venues, .journey-section {
+    background: #f9f9f6;
+    padding: 80px 0px;
+}
+.list-reviews div {
+    display: flex;
+    align-items: center;
+}
+.list-reviews a {
+    text-decoration: none;
+    background: #192335;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 12px;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.list-reviews a:hover {
+    background: #097E52;
+}
+.owl-dots {
+    display: none;
+}
+.featured-venues .owl-nav span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    line-height: 35px;
+}
+.featured-venues .owl-carousel .owl-nav button.owl-next, .featured-venues .owl-carousel .owl-nav button.owl-prev {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 60px;
+    box-shadow: 0px 1px 8px 0px #00000014;
+    transition: all 0.5s ease;
+}
+.featured-venues .owl-carousel .owl-nav button.owl-next:hover, .featured-venues .owl-carousel .owl-nav button.owl-prev:hover {
+    background: #097E52;
+}
+.btn-secondary {
+    color: #FFFFFF;
+    background: #192335;
+    border-color: #192335;
+}
+.btn-secondary:hover {
+    background: #097E52;
+    border-color: #097E52;
+}
+.view-all.text-center {
+    margin-top: 40px;
+}
+section.section.service-section, .newsletter-sport {
+    padding: 80px 0px;
+}
+.service-content h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.service-grid .service-content {
+    padding: 24px;
+    text-align: center;
+}
+.service-grid {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 44px rgb(179 179 179 / 25%);
+    border-radius: 10px;
+    margin: 0 0 40px;
+}
+.service-grid .service-img {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.service-grid .service-img img {
+    border-radius: 10px 10px 0 0;
+    height: 310px;
+    object-fit: cover;
+    width: 100%;
+    transition: ease all 0.5s;
+    position: relative;
+}
+.service-grid:hover img {
+    transition: ease all 0.5s;
+    transform: scale(1.1) rotate(3deg);
+}
+.service-grid .service-content h4 a {
+    color: #192335;
+}
+.convenient-section {
+    background-image: url(https://zahidlawoffice.com/wp-content/uploads/2024/06/cta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px;
+}
+.convenient-section h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+.convenient-section p {
+    color: white;
+    font-size: 20px;
+    width: 630px;
+    margin: 0 auto 25px;
+}
+.start-your-journey h2 .active-sport {
+    background: linear-gradient(93.86deg, #006177 -2.6%, #269089 67.39%, #7ABC82 110.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.convenient-section a.btn.btn-primary:hover, .footer a.btn.btn-primary:hover {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+.journey-section h2 {
+    margin-bottom: 20px;
+}
+.start-your-journey .stay-approach {
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #192335;
+    display: block;
+}
+
+.journey-list li {
+    line-height: 30px;
+    color: #555;
+    font-size: 16px;
+}
+.journey-list {
+    margin-bottom: 30px;
+}
+.subscribe-style {
+    background: linear-gradient(93.86deg, #006177 -2.6%, #269089 67.39%, #7ABC82 110.84%);
+    border-radius: 10px;
+    display: flex;
+}
+.subscribe-style .banner-info {
+    max-width: 554px;
+    margin: auto;
+    width: 100%;
+}
+.banner-info img.img-fluid {
+    filter: invert(1);
+    width: 45px;
+    margin-bottom: 15px;
+}
+.subscribe-style .banner-info h2 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+.subscribe-style .banner-info p {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.subscribe-style .subscribe-blk .input-group {
+    padding: 10px;
+    background: #F9F9F6;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+.subscribe-blk input.form-control, .subscribe-blk input.form-control:focus, .subscribe-blk input.form-control:focus-visible {
+    border: unset !important;
+    box-shadow: unset;
+    background: transparent;
+}
+.banner-blk img.img-fluid {
+    border-radius: 12px 0px 0px 12px;
+    width: 510px;
+    height: 400px;
+    object-fit: cover;
+}
+@media (max-width: 767px){
+    .hero-section .section-search h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .hero-section .section-search .search-box form {
+        display: block;
+    }
+    .hero-section .section-search .search-box .search-input {
+        width: 95%;
+        margin: 10px auto;
+    }
+    .hero-section .section-search .search-box .search-btn .btn {
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+    }
+    .work-grid .work-icon {
+        width: 90px;
+        height: 90px;
+    }
+    .work-icon img {
+        max-width: 40px;
+    }
+    img.det-img {
+        height: 270px;
+    }
+    section {
+        padding: 55px 5px ! IMPORTANT;
+    }
+    .featured-venues p.sub-title, .service-section p.sub-title, .work-section p.sub-title {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    .convenient-section p {
+        line-height: 27px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .journey-list li {
+        line-height: 27px;
+        font-size: 16px;
+    }
+    .journey-img.aos.aos-init.aos-animate {
+        margin-top: 40px;
+    }
+    .subscribe-style {
+        display: block;
+    }
+    .banner-blk img.img-fluid {
+        border-radius: 12px 12px 0px 0px;
+        width: 100%;
+        height: 300px;
+    }
+    .subscribe-style .banner-info {
+        max-width: 100%;
+        padding: 40px 20px;
+        width: 100%;
+    }
+    .subscribe-style .banner-info h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    section#shadow-host-companion {
+        padding: 0px !important;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px){
+    .subscribe-style {
+        display: block;
+    }
+    .subscribe-style .banner-info {
+        max-width: 100%;
+        padding: 40px;
+    }
+    .banner-blk img.img-fluid {
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+    .journey-section .start-your-journey {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+    .container, .container-md, .container-sm {
+        max-width: 95%;
+    }
+}
