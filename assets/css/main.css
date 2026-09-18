@@ -530,3 +530,40 @@ section.section.service-section, .newsletter-sport {
         max-width: 95%;
     }
 }
+.venue-price{
+    margin: 8px 0 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #198754;
+}
+
+.venue-price strong{
+    color: #198754;
+}
+
+.venue-price span{
+    color: #666;
+    font-size: 13px;
+}
+.map-pin {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 22px;
+    margin: 0;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+.map-pin img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+/* Remove extra space between venue sections */
+.arena + .arena {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}

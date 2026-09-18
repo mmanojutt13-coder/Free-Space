@@ -1,11 +1,11 @@
 .breadcrumb.breadcrumb-list {
     padding: 60px 0px;
-    background: url(https://zahidlawoffice.com/wp-content/uploads/2024/06/breadcrumb.jpg);
+    background: url('../images/cricket-stadium.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
     background-color: #000000bf;
-    background-position: center left;
+    background-position: center;
 }
 .breadcrumb ul li {
     padding-right: 5px;
@@ -69,22 +69,36 @@ form.contact-us {
 .mb-40 {
     margin-bottom: 40px;
 }
-form input.form-control, form textarea.form-control {
+form input.form-control,
+ form textarea.form-control,
+  select.guest,
+   select.time {
     padding: 20px;
     border-radius: 10px;
     background: #FAFAFA;
     border: none;
+    width: 100%;
+    outline: 0px;
 }
 form.contact-us button {
     margin: 24px auto 0 auto;
 }
-form input.form-control,form input.form-control:focus, form input.form-control:focus-visible, form textarea.form-control, form textarea.form-control:focus, form textarea.form-control:focus-visible {
+form input.form-control,
+form input.form-control:focus,
+form input.form-control:focus-visible,
+form textarea.form-control,
+form textarea.form-control:focus,
+form textarea.form-control:focus-visible,
+select.form-control,
+select.form-control:focus {
     border: unset !important;
     box-shadow: unset;
     background: #FAFAFA;
 }
 /*Contact Us Form*/
-
+form textarea{
+    resize: none;
+}
 /*login*/
 .authendication-pages .content .wrapper .text-bg.register {
     background: rgba(255, 242, 242, 0.13);
@@ -110,16 +124,15 @@ form input.form-control,form input.form-control:focus, form input.form-control:f
 .main-wrapper.authendication-pages {
     overflow-x: hidden;
 }
-.banner-bg.login{
-    background: url(https://zahidlawoffice.com/wp-content/uploads/2024/06/login-bg.jpg);
+.banner-bg.login {
+    background: url('../images/team-up.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
     overflow: hidden;
     height: 100%;
-    width: 100%;
-    position: fixed;
     width: 50%;
+    position: fixed;
 }
 .vph-100 {
     min-height: 100vh;
@@ -376,6 +389,24 @@ ul.social-medias.d-flex {
     color: #222;
     font-weight: 600;
 }
+.guest input.form-control {
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.container.password {
+    padding: 70px 30px;
+}
+.profile-detail-group .card {
+    padding: 24px;
+    box-shadow: 0px 4px 44px rgba(211, 211, 211, 0.25);
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.password .row {
+    gap: 30px;
+}
 @media (max-width: 767px){
     .breadcrumb ul {
         font-size: 13px;
@@ -430,6 +461,13 @@ ul.social-medias.d-flex {
         font-size: 16px;
         line-height: 27px;
     }
+    ul.appointmentset {
+        flex-direction: column !important;
+        gap: 30px;
+    }
+    .appointment-info ul.appointmentset li {
+        width: 100% !important;
+    }
 }
 
 /*User*/
@@ -464,8 +502,9 @@ ul.social-medias.d-flex {
     white-space: nowrap;
 }
 img.avatar-img {
-    width: 50px;
+    width: 80px;
     border-radius: 10px;
+    height: 60px;
 }
 .table tbody tr td {
     padding: 15px;
@@ -530,4 +569,82 @@ span.badge.bg-info {
     border-radius: 8px;
     font-size: 14px;
     transition: all 0.5s ease;
+}
+.pop .modal-dialog {
+    max-width: 1060px;
+}
+.pop .modal-body {
+    padding: 24px;
+}
+.dashboard-card.court-information {
+    background: #F9F9F6;
+    padding: 15px;
+    box-shadow: none;
+}
+.dashboard-card.court-information .card-header {
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+ul.appointmentset {
+    display: flex;
+    flex-flow: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dashboard-card {
+    background: #FFFFFF;
+    width: 100%;
+    margin: 0 0 24px;
+    padding: 24px 24px 0;
+    border: 0;
+}
+.appointment-info p {
+    margin-bottom: 0px;
+}
+.appointment-info h6 {
+    margin-bottom: 0px;
+}
+.appointment-info ul.appointmentset li {
+    margin: 0;
+    width: 33%;
+}
+.appointment-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.appointment-img img {
+    width: 100px;
+    border-radius: 10px;
+    height: 80px;
+    object-fit: cover;
+}
+.det-img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:8px 8px 0 0;
+}
+.arena + .arena {
+    padding-top: 0 !important;
+    margin-top: -40px !important;
+}
+.pass-group {
+    position: relative;
+}
+
+.pass-group .toggle-password,
+.pass-group .toggle-password-confirm {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.pass-group .form-control {
+    padding-right: 45px;
 }

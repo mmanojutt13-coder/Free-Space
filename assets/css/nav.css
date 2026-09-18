@@ -14,6 +14,10 @@
     background: #19233528; 
     border-radius: 60px;
   }  
+  .table-responsive.table-datatable::-webkit-scrollbar {
+    width: 5px ! IMPORTANT;
+    height: 5px;
+}
 body {
     font-family: 'Outfit';
 }
@@ -83,10 +87,11 @@ h6 {
     line-height: 28px;
 }
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
-    margin: 0 auto;
+    margin-left: 80px;
     gap: 18px;
     font-size: 17px;
     font-weight: 500;
+    flex-grow: 0;
 }
 .btn {
     font-size: 17px;
@@ -181,7 +186,25 @@ a.nav-link.btn.register:hover {
 .footer p.sub-title {
     margin: 15px 0px 25px;
 }
-@media (max-width: 767px){
+.dropdown-menu.dropdown-menu-end {
+    padding: 20px;
+    border-radius: 8px;
+    width: 220px;
+    left: -120px;
+}
+.dropdown-menu-end a.dropdown-item {
+    padding: 10px 0px 0px;
+    line-height: 18px;
+}
+.dropdown-menu-end a.dropdown-item:hover {
+    background: transparent;
+    color: #111;
+}
+.user-header {
+    display: flex;
+    gap: 12px;
+}
+@media (max-width: 768px){
     .navbar img {
         max-width: 80px;
     }
@@ -247,4 +270,9 @@ a.nav-link.btn.register:hover {
     .footer-menu a {
         font-size: 12px;
     }
+}
+.header-navbar-rht {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
 }
